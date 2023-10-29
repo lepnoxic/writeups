@@ -6,6 +6,7 @@ $$M^e mod(N) = C$$
 this can be also written as
 
 $$ M^e = t \times N + C $$
+
 $$ M =  (t \times N + C) ^ {1/e} $$
 
 where $t$ is any natural number. So as our $e$ value is pretty small, we can basically run this calculation for a few thousand iterations and try for it to get us a value. So we make a python script. gmpy2 module has a function called `iroot` which also returns a bool if a n-th root exists.
