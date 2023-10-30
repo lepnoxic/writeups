@@ -26,6 +26,6 @@ for i in range(10000):
 had to guess the range there. also the output was reversed for some reason, so fixed that 
 
 ```
-linux@-:~$ python3 minirsa.py | rev
+linux@DESKTOP-565N39B:~$ python3 minirsa.py | rev
 picoCTF{e_sh0u1d_b3_lArg3r_7adb35b1}
 ```
