@@ -1,0 +1,15 @@
+INSTRUCTION MANUAL FOR THE ROBOTIC ARM
+
+The arm shut down again and the method to fix is not hard at all. 
+Below are the instructions that must be followed.
+
+1. Check for obstructions if any around the arm.
+2. Ensure that the power to the arm is off, instantaneous power surges can lead to decapitation.
+3. The joints should be oiled friction can be a potential problem.
+4. Try hitting it will work.
+5. If nothing works then you need to restart it. Just in case this falls in the hands of the wrong people the restarting code has been first converted to base64 and then this has been XOR ciphered with a repeating ASCII key and viewed in decimal. 
+
+Hint: This key is the name of the person's youngest offspring with Circe that shares the name with the ship(in uppercase).
+
+
+Restart code: 55 119 2 117 29 33 58 44 10 12 23 38 36 0 25 126 13 97 18 48 22 3 126 37 44 18 21 33 31 125 125 119 0 10 57 106

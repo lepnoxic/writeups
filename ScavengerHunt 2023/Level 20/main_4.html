@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Operations</title>
+</head>
+<body>
+    <h1>Website</h1>
+	<h2>Flag is of form sctf{flag}</h2>
+    <textarea id="inputText" placeholder="Enter text(HINT:a hex encoded string encoded in top_secret_doc)"></textarea>
+    <button onclick="a()">Check</button>
+    <p id="result"></p>
+	<textarea id="l" placeholder="Enter text(HINT:4 letter word)"></textarea>
+    <button onclick="i()">Check</button>
+    <p id="result1"></p>
+	
+    <script>
+	
+        function a() {
+            var b = document.getElementById("inputText").value;
+            try {
+                var c = "";
+                for (var i = 0; i < b.length; i += 2) {
+                    c += String.fromCharCode(parseInt(b.substr(i, 2), 16));
+                }
+                var d = c.split('').reverse().join('');
+                var e = atob(d);
+                document.getElementById("result").innerText = "Result: " + e;
+            } catch (error) {
+                document.getElementById("result").innerText = "Error."+error;
+            }
+        }
+		function f(h) {
+            
+            const g = h.split(';');
+            g.pop();
+            const i = g.map(function(number) {
+                const j = parseFloat(number) * 2;
+                return String.fromCharCode(j);
+            }).join('');
+            return i;
+        }
+		 function i() {
+            const k = document.getElementById("l");
+			var z = document.getElementById("inputText").value;
+            const l = k.value;
+            const h = l.split('').map(function(char) {
+                return (char.charCodeAt(0) / 2) + ';';
+            }).join('');
+            document.getElementById("result1").innerText = "Result: " + h;
+			if(h=="39;32.5;41.5;32.5;" && z[1]==8)
+			{document.getElementById("result1").innerText = "Result: " + f("33.5;54;55.5;57.5;50.5;16;29;20.5;16;44.5;55.5;58.5;16;55;50.5;50.5;50;16;58;55.5;16;40;36.5;39;16;52.5;58;16;50;55.5;59.5;55;16;54.5;55.5;57;50.5;23;16;");}
+			else{document.getElementById("result1").innerText = "Wrong input. Try again";}
+        }
+    </script>
+</body>
+</html>
