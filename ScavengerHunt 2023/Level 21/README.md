@@ -38,7 +38,9 @@ Also it was great to see people cheering us on.
 Anyway some guy was slandering bigchips on the comment to which the youtuber also responded. For some reason there it is showing 2 replies but when you scroll down there is only 1 reply.
 
 ![Alt text](image-5.png)
+
 The catch is to sort comments by new, idk how does that work but it worked 🗿
+
 ![Alt text](image-6.png)
 
 We are now given a drive link to a manual page. After scrolling we can find a part of the flag in this pdf itself
