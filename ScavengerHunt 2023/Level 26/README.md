@@ -14,3 +14,9 @@ for eg. sctf{samsung_jfk}
 
 ## Writeup
 
+This one is tough. But reverse searching the second picture from yandex
+![Alt text](image.png)
+https://www.airliners.net/photo/Virgin-America/Airbus-A320-214/1538967
+![Alt text](image-1.png)
+
+Alright we have an idea of which plane is this. 

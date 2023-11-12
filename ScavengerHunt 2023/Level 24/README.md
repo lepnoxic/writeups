@@ -24,16 +24,40 @@ For the 'final' step,'spock has 'archive'd the 'flag' publically under identifie
 ```
 from the word identifier, we can assume they mean the archive articles. So we go to archive.org and search.
 
-We get one epic soundtrack. We have 4 reviews under it. The one by scavenger hunt team says it has the flag, and if you go to it's profile and find one, it's a red herring. 
+https://archive.org/details/zao_20231006
 
-Then we go to the spock account to find it has left 2 images. Under that Challenge Creator has left messages under each one of them in ROT13. Which decodes to...
+![Alt text](image-2.png)
+
+We get one epic soundtrack. We have 4 reviews under it.
+https://archive.org/details/@challengecreator
+https://archive.org/details/@spock600
+https://archive.org/details/@scavenger_hunt_team
+
+The one by scavenger hunt team says it has the flag, and if you go to it's profile and find one, it's a red herring.
+
+![Alt text](image-1.png)
+
+Then we go to the spock account to find it has left 2 images.
+
+![Alt text](image-3.png)
+
+Under that Challenge Creator has left messages under each one of them in ROT13. 
+
+![Alt text](image-4.png)
+![Alt text](image-5.png)
+
+Which decodes to...
 ```
 Spock has such things with poems, you know.. stores flags usin- *dies* 
 *revives* -beginning character of each line
 ```
 We go to challenge creator's profile to get the format which is in all caps.
 
-Then we go back to the original GOATED soundtrack post to see spock's review of him sending a poem. We take each one's beginning letter to get the flag.
+![Alt text](image-6.png)
+
+Then we go back to the original GOATED soundtrack post to see spock's review of him sending a poem.
+
+![Alt text](image-7.png)
 
 ```
 My dearest one, in shadows we confide,
@@ -52,4 +76,6 @@ Every moment, cherished, no need to pretend,
 Never alone, on you, I depend,
 Dear companion, a love without end. 
 ```
+We take each one's beginning letter to get the flag.
+
 `sctf{MYBELOVEDFRIEND}`
