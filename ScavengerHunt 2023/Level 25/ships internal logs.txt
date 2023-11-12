@@ -1,0 +1,418 @@
+Spaceship Log: "Odysseus" - Ship's Internals Log - Date: 23rd October 2303
+
+Security Log
+
+00:10 - Security door to the control room accessed. Main door password attempted - "123456" -> Incorrect.
+
+00:11 - Main door password attempted - "password" -> Incorrect.
+
+00:12 - Main door password attempted - "letmein" -> Incorrect.
+
+00:14 - Main door password attempted - "accessgranted" -> Incorrect.
+
+00:15 - Main door password attempted - "openup" -> Incorrect.
+
+00:16 - Main door password attempted - "Odyssey" -> Incorrect.
+
+00:18 - Main door password attempted - "12345" -> Incorrect.
+
+Engineering Log
+
+00:20 - Thrusters reconfigured for low power mode to conserve fuel. Preparing for long-distance travel.
+
+00:25 - Life support systems optimized. Oxygen levels stable.
+
+00:30 - Navigation systems updated with course coordinates. Preparing for the jump to warp speed.
+
+00:35 - Warp drive initiated. Transitioning to warp speed in 3... 2... 1...
+
+00:36 - In warp. All systems functioning within acceptable parameters.
+
+00:45 - Exiting warp. Sensors indicate arrival in the Kuiper Belt.
+
+00:50 - Conducting diagnostics on warp drive. All systems check out.
+
+Science Log
+
+01:00 - Commencing scanning of Kuiper Belt objects. Data collection underway.
+
+01:15 - Detected unusual energy signature from a nearby object. Investigating further.
+
+01:20 - Scans reveal a previously undiscovered dwarf planet. Naming it "New Horizon."
+
+01:30 - Conducting surface analysis of New Horizon. Composition appears to be rich in rare minerals.
+
+02:00 - Returning to warp speed. Destination: Oort Cloud.
+
+02:30 - Exiting warp in the Oort Cloud. Commencing long-range observations of distant comets.
+
+03:00 - Gathering valuable data on cometary compositions and trajectories.
+
+03:30 - Internal memo: Reminder to engineering team - Perform routine maintenance on life support systems in the next 24 hours.
+
+Security Log
+
+00:10 - Security door to the control room accessed. Main door password attempted - "123456" -> Incorrect.
+
+00:11 - Main door password attempted - "password" -> Incorrect.
+
+00:12 - Main door password attempted - "letmein" -> Incorrect.
+
+00:14 - Main door password attempted - "accessgranted" -> Incorrect.
+
+00:15 - Main door password attempted - "openup" -> Incorrect.
+
+00:16 - Main door password attempted - "Odyssey" -> Incorrect.
+
+00:18 - Main door password attempted - "12345" -> Incorrect.
+
+00:19 - Main door password attempted - "opensesame" -> Incorrect.
+
+00:20 - Main door password attempted - "password123" -> Incorrect.
+
+00:21 - Main door password attempted - "letmein123" -> Incorrect.
+
+00:22 - Main door password attempted - "secureaccess" -> Incorrect.
+
+00:23 - Main door password attempted - "letmeinside" -> Incorrect.
+
+00:24 - Main door password attempted - "unlockme" -> Incorrect.
+
+00:25 - Main door password attempted - "987654321" -> Incorrect.
+
+00:26 - Main door password attempted - "qwerty" -> Incorrect.
+
+00:27 - Main door password attempted - "iloveyou" -> Incorrect.
+
+00:28 - Main door password attempted - "abcdefg" -> Incorrect.
+
+00:29 - Main door password attempted - "sunshine" -> Incorrect.
+
+00:30 - Main door password attempted - "testtest" -> Correct.
+
+00:31 - Main door password attempted - "accessdenied" -> Incorrect.
+
+00:32 - Main door password attempted - "letmein2023" -> Incorrect.
+
+00:33 - Main door password attempted - "opennow" -> Incorrect.
+
+00:34 - Main door password attempted - "unlockmeplz" -> Incorrect.
+
+00:35 - Main door password attempted - "Odysseus" -> Incorrect.
+
+00:36 - Main door password attempted - "letmein2023!" -> Incorrect.
+
+00:37 - Main door password attempted - "test123" -> Incorrect.
+
+00:38 - Main door password attempted - "letmeinside!" -> Incorrect.
+
+00:39 - Main door password attempted - "spaceship1" -> Incorrect.
+
+00:40 - Main door password attempted - "iloveOdysseus" -> Incorrect.
+
+00:41 - Main door password attempted - "Odysseus2023" -> Incorrect.
+
+00:42 - Main door password attempted - "thenebula" -> Incorrect.
+
+00:43 - Main door password attempted - "spaceexplorer" -> Incorrect.
+
+00:44 - Main door password attempted - "journeyhome" -> Incorrect.
+
+00:45 - Main door password attempted - "interstellar" -> Incorrect.
+
+00:46 - Main door password attempted - "letmein123!" -> Incorrect.
+
+00:47 - Main door password attempted - "unknown" -> Incorrect.
+
+00:48 - Main door password attempted - "mystery" -> Incorrect.
+
+00:49 - Main door password attempted - "solarsystem" -> Incorrect.
+
+00:50 - Main door password attempted - "GalaxyQuest" -> Incorrect.
+
+00:51 - Main door password attempted - "starship1" -> Incorrect.
+
+00:52 - Main door password attempted - "lostinspace" -> Incorrect.
+
+00:53 - Main door password attempted - "galacticodyssey" -> Incorrect.
+
+00:54 - Main door password attempted - "infinity" -> Incorrect.
+
+00:55 - Main door password attempted - "finalfrontier" -> Incorrect.
+
+00:56 - Main door password attempted - "OdysseusSpace" -> Incorrect.
+
+00:57 - Main door password attempted - "outerspace" -> Incorrect.
+
+00:58 - Main door password attempted - "adventure" -> Incorrect.
+
+00:59 - Main door password attempted - "explore" -> Incorrect.
+
+01:00 - Main door password attempted - "StarshipOdysseus" -> Incorrect.
+
+01:01 - Main door password attempted - "voyager" -> Incorrect.
+
+01:02 - Main door password attempted - "infinityandbeyond" -> Incorrect.
+
+01:03 - Main door password attempted - "whereNoManHasGoneBefore" -> Incorrect.
+
+01:04 - Main door password attempted - "galacticexplorer" -> Incorrect.
+
+01:05 - Main door password attempted - "spacequest" -> Incorrect.
+
+01:06 - Main door password attempted - "futurama" -> Incorrect.
+
+01:07 - Main door password attempted - "starlight" -> Incorrect.
+
+01:08 - Main door password attempted - "astroadventures" -> Incorrect.
+
+01:09 - Main door password attempted - "extraterrestrial" -> Incorrect.
+
+01:10 - Main door password attempted - "unknownfrontiers" -> Incorrect.
+
+01:11 - Main door password attempted - "gravity" -> Incorrect.
+
+01:12 - Main door password attempted - "eternity" -> Incorrect.
+
+01:13 - Main door password attempted - "finalcountdown" -> Incorrect.
+
+01:14 - Main door password attempted - "infinitejourney" -> Incorrect.
+
+01:15 - Main door password attempted - "space" -> Incorrect.
+
+01:16 - Main door password attempted - "theuniverse" -> Incorrect.
+
+01:17 - Main door password attempted - "moonlight" -> Incorrect.
+
+01:18 - Main door password attempted - "stellar" -> Incorrect.
+
+01:19 - Main door password attempted - "spacetraveler" -> Incorrect.
+
+01:20 - Main door password attempted - "cosmic" -> Incorrect.
+
+01:21 - Main door password attempted - "eventhorizon" -> Incorrect.
+
+01:22 - Main door password attempted - "outerspace123" -> Incorrect.
+
+01:23 - Main door password attempted - "galactictravel" -> Incorrect.
+
+01:24 - Main door password attempted - "cosmicexploration" -> Incorrect.
+
+01:25 - Main door password attempted - "farout" -> Incorrect.
+
+01:26 - Main door password attempted - "interstellarvoyage" -> Incorrect.
+
+01:27 - Main door password attempted - "odysseus2023" -> Incorrect.
+
+01:28 - Main door password attempted - "beyondthehorizon" -> Incorrect.
+
+01:29 - Main door password attempted - "infinitybeyond" -> Incorrect.
+
+01:30 - Main door password attempted - "stellarodyssey" -> Incorrect.
+
+01:31 - Main door password attempted - "spacebound" -> Incorrect.
+
+01:32 - Main door password attempted - "explorers" -> Incorrect.
+
+01:33 - Main door password attempted - "beyondthegalaxy" -> Incorrect.
+
+01:34 - Main door password attempted - "outerspaceadventures" -> Incorrect.
+
+01:35 - Main door password attempted - "cosmicjourney" -> Incorrect.
+
+01:36 - Main door password attempted - "finalfrontier1" -> Incorrect.
+
+01:37 - Main door password attempted - "stars" -> Incorrect.
+
+01:38 - Main door password attempted - "galaxyexplorer" -> Incorrect.
+
+01:39 - Main door password attempted - "universebound" -> Incorrect.
+
+01:40 - Main door password attempted - "outofthisworld" -> Incorrect.
+
+01:40 - Main door password attempted - "testtest" -> granted
+
+01:41 - Main door password attempted - "odysseyspace2023" -> Incorrect.
+
+01:42 - Main door password attempted - "theextraterrestrial" -> Incorrect.
+
+01:43 - Main door password attempted - "cosmicspace" -> Incorrect.
+
+01:44 - Main door password attempted - "spacetime" -> Incorrect.
+
+01:45 - Main door password attempted - "nebula" -> Incorrect.
+
+01:46 - Main door password attempted - "galacticjourney" -> Incorrect.
+
+01:47 - Main door password attempted - "exploretheworld" -> Incorrect.
+
+01:48 - Main door password attempted - "spaceshipodyssey" -> Incorrect.
+
+01:49 - Main door password attempted - "starsearch" -> Incorrect.
+
+01:50 - Main door password attempted - "universeexplorer" -> Incorrect.
+
+01:51 - Main door password attempted - "outerspacebound" -> Incorrect.
+
+01:52 - Main door password attempted - "intotheunknown" -> Incorrect.
+
+01:53 - Main door password attempted - "infinityvoyage" -> Incorrect.
+
+01:54 - Main door password attempted - "spacepioneer" -> Incorrect.
+
+01:55 - Main door password attempted - "starshipodyssey2023" -> Incorrect.
+
+01:56 - Main door password attempted - "galacticbound" -> Incorrect.
+
+01:57 - Main door password attempted - "voyagebeyond" -> Incorrect.
+
+01:58 - Main door password attempted - "intergalactictravel" -> Incorrect.
+
+01:59 - Main door password attempted - "infinitefrontiers" -> Incorrect.
+
+02:00 - Main door password attempted - "nebulajourney" -> Incorrect.
+
+02:01 - Main door password attempted - "spaceadventure" -> Incorrect.
+
+02:02 - Main door password attempted - "galacticexploration2023" -> Incorrect.
+
+02:03 - Main door password attempted - "outerspacewonders" -> Incorrect.
+
+02:04 - Main door password attempted - "starseeker" -> Incorrect.
+
+02:05 - Main door password attempted - "celestialvoyage" -> Incorrect.
+
+02:06 - Main door password attempted - "cosmicwonders" -> Incorrect.
+
+02:07 - Main door password attempted - "outerspacemystery" -> Incorrect.
+
+02:08 - Main door password attempted - "starlightjourney" -> Incorrect.
+
+02:09 - Main door password attempted - "galacticadventurer" -> Incorrect.
+
+02:10 - Main door password attempted - "stellarodyssey2023" -> Incorrect.
+
+02:11 - Main door password attempted - "intothegalaxy" -> Incorrect.
+
+02:12 - Main door password attempted - "spaceboundexplorer" -> Incorrect.
+
+02:13 - Main door password attempted - "infinitegalaxies" -> Incorrect.
+
+02:14 - Main door password attempted - "outerspaceodyssey" -> Incorrect.
+
+02:15 - Main door password attempted - "thegalacticjourney" -> Incorrect.
+
+02:16 - Main door password attempted - "exploretheuniverse" -> Incorrect.
+
+02:17 - Main door password attempted - "spaceshipodyssey23" -> Incorrect.
+
+02:18 - Main door password attempted - "seekingthestars" -> Incorrect.
+
+02:19 - Main door password attempted - "galaxyexplorer2023" -> Incorrect.
+
+02:20 - Main door password attempted - "odysseyspaceadventure" -> Incorrect.
+
+02:21 - Main door password attempted - "starryvoyage" -> Incorrect.
+
+02:22 - Main door password attempted - "celestialbound" -> Incorrect.
+
+02:23 - Main door password attempted - "cosmicjourney2023" -> Incorrect.
+
+02:24 - Main door password attempted - "outerspaceodyssey23" -> Incorrect.
+
+02:25 - Main door password attempted - "starlightwonders" -> Incorrect.
+
+02:26 - Main door password attempted - "galacticexploration23" -> Incorrect.
+
+02:27 - Main door password attempted - "spaceexplorer2023" -> Incorrect.
+
+02:28 - Main door password attempted - "intothegalaxy23" -> Incorrect.
+
+02:29 - Main door password attempted - "journeytothestars" -> Incorrect.
+
+02:30 - Main door password attempted - "universebound2023" -> Incorrect.
+
+02:31 - Main door password attempted - "outerspace2023" -> Incorrect.
+
+02:32 - Main door password attempted - "starseeker23" -> Incorrect.
+
+02:33 - Main door password attempted - "celestialvoyage23" -> Incorrect.
+
+02:34 - Main door password attempted - "cosmicwonders23" -> Incorrect.
+
+02:35 - Main door password attempted - "outerspacemystery23" -> Incorrect.
+
+02:36 - Main door password attempted - "starlightjourney23" -> Incorrect.
+
+02:37 - Main door password attempted - "galacticadventurer23" -> Incorrect.
+
+02:38 - Main door password attempted - "stellarodyssey2023!" -> Incorrect.
+
+02:39 - Main door password attempted - "intothegalaxy23!" -> Incorrect.
+
+02:40 - Main door password attempted - "spaceboundexplorer23!" -> Incorrect.
+
+02:41 - Main door password attempted - "infinitegalaxies23!" -> Incorrect.
+
+02:42 - Main door password attempted - "outerspaceodyssey23!" -> Incorrect.
+
+02:43 - Main door password attempted - "thegalacticjourney23!" -> Incorrect.
+
+02:44 - Main door password attempted - "exploretheuniverse23!" -> Incorrect.
+
+02:45 - Main door password attempted - "spaceshipodyssey23!" -> Incorrect.
+
+02:46 - Main door
+Communication Log
+
+04:00 - Attempting to establish contact with Earth. Signal strength insufficient. Sending repeating signal.
+
+05:00 - Still no response from Earth. Signal strength increasing.
+
+06:00 - Contact established with Earth. Communication link secure.
+
+06:30 - Reporting findings from Kuiper Belt and Oort Cloud research. Data transmission underway.
+
+07:00 - Earth confirms receipt of data. Mission success. Preparing for the return journey.
+
+07:30 - Initiating warp drive. Returning to Earth's orbit.
+
+08:00 - Warp drive engaged. En route to Earth. Mission accomplished.
+
+08:30 - Entering Earth's orbit. Preparing for reentry.
+
+09:00 - Safely docked at the space station. Crew disembarking. Mission complete.
+
+09:30 - Internal memo: Reminder to all crew members - Post-mission debriefing at 14:00 hours. Please report to the briefing room.
+
+10:00 - Internal memo: Engineering team - Schedule maintenance for the main thrusters. Check for any anomalies or wear.
+
+10:30 - Internal memo: Science team - Begin data analysis of Kuiper Belt and Oort Cloud findings. Prepare reports for review.
+
+11:00 - Internal memo: Navigation team - Plot course for upcoming mission to study a distant asteroid cluster. Coordinate with the science team for research objectives.
+
+11:30 - Internal memo: Communication team - Review communication protocols and ensure all systems are operational for future missions.
+
+12:00 - Internal memo: Captain's office - Please prepare mission reports for submission to the space agency.
+
+12:30 - Internal memo: Galley - Special dinner planned for the crew tonight in the mess hall to celebrate the successful mission.
+
+13:00 - Internal memo: Medical team - Conduct health check-ups on all crew members. Report any issues to the captain.
+
+13:30 - Internal memo: Security team - Review and update security protocols for the ship, including the main door password.
+
+14:00 - Crew assembled for post-mission debriefing. Discussion on mission outcomes and planning for future missions.
+
+15:00 - Internal memo: All crew members - Mandatory safety training scheduled for tomorrow. Attendance required.
+
+16:00 - Internal memo: Navigation team - Begin preparations for the upcoming asteroid cluster mission. Double-check course calculations.
+
+17:00 - Internal memo: Science team - Research objectives for the asteroid cluster mission finalized. Equipment check in progress.
+
+18:00 - Internal memo: Engineering team - Thruster maintenance scheduled for the following day. Prepare equipment and documentation.
+
+19:00 - Internal memo: Communications team - Conduct equipment maintenance to ensure optimal signal strength for future communications.
+
+20:00 - Internal memo: Crew quarters - Rest period begins. Ensure proper rest and relaxation for upcoming mission preparations.
+
+End of Log
