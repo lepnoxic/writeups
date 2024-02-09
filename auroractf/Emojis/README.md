@@ -13,7 +13,7 @@ Link 1: https://discord.com/invite/HZQ4VNbm
 Hints
 1) Instead of asking general purpose questions, try asking some protocol-based ones...
 
-# Solution
+## Solution
 
 Given a discord server invite, join it. Find a bot called sudo.Aura
 

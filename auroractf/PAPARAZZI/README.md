@@ -15,7 +15,7 @@ Hints
 4) Check GMT and 24hr format
 5) Time portion of the flag consists of ONLY digits
 
-# Solution
+## Solution
 
 Open the instagram handle
 

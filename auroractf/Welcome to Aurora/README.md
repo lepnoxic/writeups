@@ -10,7 +10,7 @@ The Flag should be wrapped in aCTF{}
 
 Link 1 : https://wearemist.in/
 
-# Solution
+## Solution
 
 The flag is broken into parts and hidden everywhere. Go to the team page scroll to find aurora team member, first part.
 

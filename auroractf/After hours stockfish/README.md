@@ -14,7 +14,7 @@ Hints
 3) Rook move leads to checkmate
 4) 4-5 move checkmate 
 
-# Solution
+## Solution
 
 Given a chess position 
 

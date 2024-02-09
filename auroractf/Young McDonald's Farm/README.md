@@ -8,7 +8,7 @@ If it isn't advanced, I don't want it.
 
 The Flag should be wrapped in aCTF{}
 
-# Solution
+## Solution
 
 Given text.txt, we have a cipher and key divided into two parts.
 

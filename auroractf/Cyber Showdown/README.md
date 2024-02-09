@@ -14,7 +14,7 @@ Hints
 1) How can you explore the website's routes?
 2) Try mapping and exploring the website maybe you'll get lucky
 
-# Solution
+## Solution
 
 Described in Hacktricks [inital checks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web#initial-checks) these are default pages you should check first hand when pentesting.
 

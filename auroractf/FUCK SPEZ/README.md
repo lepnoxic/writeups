@@ -13,7 +13,7 @@ The Flag should be wrapped in aCTF{}
 Hints
 1) '#' is included in the flag itself
 
-# Solution
+## Solution
 
 Fuck spez was a great moment in r/place 2023. r/place was an online event where redditors placed pixel colors on a big canvas. We have been given coordinates and a time. Being told that # is in the flag means they are asking for the color of that pixel at that time. 
 

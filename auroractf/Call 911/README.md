@@ -14,7 +14,7 @@ https://protohype.pythonanywhere.com/
 Hints
 1) Consider the legal framework surrounding digital info
 
-# Solution
+## Solution
 
 Given data.txt. There are 5 laws given which belong under the Indian Constitution. Google them to get their Penal codes
 

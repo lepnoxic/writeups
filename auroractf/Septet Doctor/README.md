@@ -12,7 +12,7 @@ Hints
 1) Think about the layers of an onion, each layer needs to be peeled back t reveal the next
 2) File inside file? You always don't need a password to access different layers, you can do this with a tool !
 
-# Solution
+## Solution
 
 The image is a steg file, which needs a specific tool to open. It's called stegosuite. Use stegosuite, to open the image and extract the given image.
 

@@ -10,7 +10,7 @@ The Flag should be wrapped in actf{}
 
 Link 1: https://discord.com/invite/HZQ4VNbm
 
-# Solution
+## Solution
 
 Continuation from Emojis. The bot runs on a chatbot api. So we need to extort information of the flag through text. I don't know if this was broken but i cheated my way through it.
 
