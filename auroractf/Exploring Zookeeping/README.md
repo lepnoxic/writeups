@@ -19,6 +19,8 @@ Hints
 
 We are given a pdf with redacted text. They are all red herring. after some googling you will find the original pdf https://winghamwildlifepark.co.uk/wp-content/uploads/2012/12/Research-Using-Zoo-Records.pdf. After observation we can see there is a key difference in the pdf given and the original that the page numbers have specific bird images on them. After googling we find out that there is a [Bird on the wire Cipher](https://www.dcode.fr/birds-on-a-wire-cipher). So we take all the images and decipher it.
 
-![alt text](image.png)
+![alt text](image.jpg)
 
-Can't get after this
+after a lot of guess work you will get
+
+`aCTF{43rial_0n_wir3}`
